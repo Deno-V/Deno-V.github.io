@@ -1,0 +1,6 @@
+<li>   
+    <h3 class="archive__item-title" itemprop="headline" style="margin-top: 0;">  
+        <a href="{{ base_path }}{{ post.permalink }}">{{ post.title }}</a>  
+    </h3>  
+    <i>{{post.authors}}<br>{{post.venue}}</i>, {{ post.date | default: "1900-01-01" | date: "%Y-%m" }}  
+</li>  

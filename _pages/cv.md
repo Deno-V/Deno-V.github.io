@@ -9,56 +9,84 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+🎓 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in *Pattern Recognition and Intelligent Systems*,  Institute of Automation, Chinese Academy of Sciences, 2021-Present
+* B.S. in *Automation*, Tongji University, 2017-2021 (Ranked first in my major)
 
-Work experience
+💼 Internship
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Meituan, Intern
+  - Work focus: Aspect-based semantic analysis along with graph neural networks, 2021/08 - 2022/02
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+📄 Publications
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}  
+<ul>  
+    {% for post in sorted_publications %}  
+    {% include singleitem.html %}
+    {% endfor %}  
+</ul>  
 
-Publications
+🏆 Honors
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+- 2023-2024 Outstanding Student of UCAS
+- 2021 Outstanding Graduate of Shanghai
+- 2018-2019 National Scholarship
+- 2019 First Prize in the National University Students' Electronic Design Competition
+- 2019 Second Prize in the East China Region of the NXP Cup Intelligent Vehicle Competition
+- 2018 First Prize in the Shanghai Division of the 10th National College Student Mathematics Competition
+- 2018 First Prize in the Excellence University Alliance College Student Mathematics Competition
+- 2017-2018 National Scholarship
+- 2017-2018 Outstanding Student of Tongji University
+- others
+
+📚 Mastered Courses
+======
+- **Mathematics**: Advanced Mathematics, Linear Algebra, Probability Theory, Complex Functions and Integral Transforms, Operations Research, ...
+- **Artificial Intelligence**: *Deep Learning*, *Machine Learning*, *Pattern Recognition*, *Text Data Mining*, *Natural Language Processing*, *Principles and Algorithms of Artificial Intelligence*, *Theory and Application of Optimization Algorithms*, Methods of Algorithm Optimization, ...
+- **Computer Science**: *Design and Analysis of Computer Algorithms*, C/C++ Programming, Computer Networks, Microcomputer Principles and Interface Technology, Software Technology, ...
+- **Engineering**: Signals and Systems, Principles of Automatic Control, Modern Control Technology, Factory Power Supply, Mechanical Drawing, Electrical Machines and Drives, ...
+- **Electronics**: Analog Electronic Technology, Digital Electronics, Principles of Circuits, ...
+Others: *Management Psychology*, Legal System of Human Rights, *Optimization and Simulation in Finance*, ...
+
+The courses in *italics* are graduate-level courses, while the others are undergraduate courses.
+
+- **Ongoing**: Macroeconomics, ...
+
+🧑‍🤝‍🧑 Service and leadership
+======
+* 2023 President of the IEEE Student Branch at the University of Chinese Academy of Sciences.
+* 2021 Class Leader, School of Electronics and Information Engineering, Tongji University.
+* 2017-2021 Member of the Technical Promotion Department, Student Union, School of Electronics and Information Engineering, Tongji University.
+* 2017-2018 Volunteer services at the Lu Xun Memorial Museum in Shanghai and various marathons across the city.
+* others
+
+
+🛠️ Skills
+======
+* Programming
+  * Python: Proficient in PyTorch, TensorFlow, and other AI-related packages.
+  * C: Used C to implement image processing, navigation, and control algorithms in the Intelligent Car Competition and to build a small electromagnetic railgun (2019). Primarily utilized in microcontrollers.
+  * Matlab: Applied in mathematical modeling competitions and various power electronics simulations and robot navigation algorithms (2020).
+  * Java & Android: Developed a data sensing and detection app, applied in [this devices](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202309785).
+* Altium Designer: Skilled in designing and soldering circuit boards, including various small power and signal printed circuit boards.
+* Digital Painting/Painting: A hobbyist experienced with Photoshop, SAI, acrylic paints, and oil pastels.
+* Musics: A long-time fingerstyle guitar enthusiast; erhu player.
+* others
+
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  {% endfor %}</ul> -->
+
+
+
