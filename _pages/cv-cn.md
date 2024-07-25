@@ -21,7 +21,7 @@ redirect_from:
   - 工作内容: 区分主题的语义分析（Aspect-based semantic analysis），图神经网络，2021/08 - 2022/02
 
 
-📄 Publications
+📄 论文
 ======
 {% assign sorted_publications = site.publications | sort: 'date' | reverse %}  
 <ul>  
@@ -30,7 +30,7 @@ redirect_from:
     {% endfor %}  
 </ul>  
 
-🏆 Honors
+🏆 荣誉
 ======
 2023-2024 中国科学院大学“三好学生”
 2021 上海市优秀毕业生
