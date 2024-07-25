@@ -9,3 +9,4 @@ Here are some changes I made:
 4. About Me page and CV page list publications in a custom way in singleitem.html (replace archive-single-cv.html)
 5. Modified the implementation of the download links, citations, etc., in archive-single.html to make it more flexible.
 6. Defined new pattern for every md file in publication files (these markdown files in publications use single.html as layout, I simply change the pattern in md file not in single to avoid cross influence)
+7. Add CSDN to author_profile

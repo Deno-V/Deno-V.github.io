@@ -10,15 +10,80 @@ redirect_from:
 {% include base_path %}
 
 
-Constructing...
+🎓 教育
+======
+* 博士 in *模式识别与智能系统*， 中国科学院自动化研究所，2021-现在
+* 本科 in *自动化*，同济大学，2017-2021 (专业排名1/100)
+
+💼 实习
+======
+* 美团，算法实习生
+  - 工作内容: 区分主题的语义分析（Aspect-based semantic analysis），图神经网络，2021/08 - 2022/02
 
 
-2023-2024 中国科学院大学“三好学生” (Outstanding Student)
-2021 上海市优秀毕业生 (Outstanding Graduate of Shanghai)
-2018-2019 国家奖学金 (National Scholarship)
-2019 “TI”杯全国大学生电子设计竞赛全国一等奖 (First Prize in the National University Students' Electronic Design Competition)
-2019 全国大学生“恩智浦”杯智能汽车竞赛华东赛区二等奖 (Second Prize in the East China Region of the NXP Cup Intelligent Vehicle Competition)
-2018 第十届全国大学生数学竞赛上海市一等奖 (First Prize in the Shanghai Division of the 10th National College Student Mathematics Competition)
-2018 卓越大学联盟高校大学生数学竞赛一等奖 (First Prize in the Excellence University Alliance College Student Mathematics Competition)
-2017-2018 国家奖学金 (National Scholarship)
-2017-2018 同济大学“优秀学生” (Outstanding Student of Tongji University)
+📄 Publications
+======
+{% assign sorted_publications = site.publications | sort: 'date' | reverse %}  
+<ul>  
+    {% for post in sorted_publications %}  
+    {% include singleitem.html %}
+    {% endfor %}  
+</ul>  
+
+🏆 Honors
+======
+2023-2024 中国科学院大学“三好学生”
+2021 上海市优秀毕业生
+2018-2019 国家奖学金
+2019 “TI”杯全国大学生电子设计竞赛全国一等奖
+2019 全国大学生“恩智浦”杯智能汽车竞赛华东赛区二等奖
+2018 第十届全国大学生数学竞赛上海市一等奖
+2018 卓越大学联盟高校大学生数学竞赛一等奖
+2017-2018 国家奖学金
+2017-2018 同济大学“优秀学生”
+
+📚 主要课程
+======
+- **数学**: 高等数学，线性代数，概率论，复变函数与积分变化，运筹学，...
+- **人工智能**: *深度学习*，*机器学习*，*模式识别*，*文本数据挖掘*，*自然语言处理*，*人工智能算法和原理*，*最优化算法和理论*，...
+- **计算机**: *计算机算法设计和分析*，C/C++程序设计，计算机网络，微机原理和接口技术，软件技术，...
+- **工程**: 信号与系统，自动控制原理，现代控制方法，过程控制， 照明原理，工厂供电，机械制图，电机拖动，...
+- **电子技术**: 模拟电路，数字电路，电路原理，...
+- 其他: *管理心理学*，人权法制，*金融中的最优化*，...
+
+*斜体*课程为研究生课程，其余为本科阶段课程。
+
+
+🧑‍🤝‍🧑 职务和社会服务
+======
+* 2023 UCAS-IEEE学生分会会长。
+* 2021 同济大学，自动化班级，班长。
+* 2017-2021 同济大学电子信息与工程学院团学联技术宣传部部员。
+* 2017-2018 鲁迅纪念馆讲解志愿服务与其他上海大型活动志愿。
+* 其他
+
+
+🛠️ 技能
+======
+* Programming
+  * Python: 擅长Pytorch，tensorflow以及各类和AI相关的代码技术。
+  * C: 在2019年的智能车竞赛中，使用C语言实现图像处理、导航和控制算法，此外还构建了一台小型模拟电磁轨道炮的识别和控制代码。主要用于微控制器。
+  * Matlab: 应用于数学建模竞赛、各种信号处理/功率电子/控制系统仿真和机器人导航算法（2020年）。
+  * Verilog: 在Vivado中利用verilog进行FPGA程序的开发，用于驱动和读取外设。
+  * Java & Android: 设计开发了一个多路实时动态数据采集和显示设备（软件段和硬件端电子部分），在 [此成果](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202309785)中得到应用.
+* Altium Designer: 熟练设计和焊接电路板，包括各种小型功率和信号印刷电路板。
+* 数字绘画/绘画: 爱好，掌握使用PS，SAI数字绘画，丙烯绘画，油画棒绘画。
+* 音乐: 长期指弹吉他爱好; 二胡.
+* 其他
+
+<!-- Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul> -->
+  
+<!-- Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul> -->

@@ -12,7 +12,7 @@ redirect_from:
 🎓 Education
 ======
 * Ph.D in *Pattern Recognition and Intelligent Systems*,  Institute of Automation, Chinese Academy of Sciences, 2021-Present
-* B.S. in *Automation*, Tongji University, 2017-2021 (Ranked first in my major)
+* B.S. in *Automation*, Tongji University, 2017-2021 (Ranked first in my major 1/100)
 
 💼 Internship
 ======
@@ -49,9 +49,9 @@ redirect_from:
 - **Computer Science**: *Design and Analysis of Computer Algorithms*, C/C++ Programming, Computer Networks, Microcomputer Principles and Interface Technology, Software Technology, ...
 - **Engineering**: Signals and Systems, Principles of Automatic Control, Modern Control Technology, Factory Power Supply, Mechanical Drawing, Electrical Machines and Drives, ...
 - **Electronics**: Analog Electronic Technology, Digital Electronics, Principles of Circuits, ...
-Others: *Management Psychology*, Legal System of Human Rights, *Optimization and Simulation in Finance*, ...
+- Others: *Management Psychology*, Legal System of Human Rights, *Optimization and Simulation in Finance*, ...
 
-The courses in *italics* are graduate-level courses, while the others are undergraduate courses.
+The courses in *italics* are graduate courses, while the others are undergraduate courses.
 
 - **Ongoing**: Macroeconomics, ...
 
@@ -69,7 +69,8 @@ The courses in *italics* are graduate-level courses, while the others are underg
 * Programming
   * Python: Proficient in PyTorch, TensorFlow, and other AI-related packages.
   * C: Used C to implement image processing, navigation, and control algorithms in the Intelligent Car Competition and to build a small electromagnetic railgun (2019). Primarily utilized in microcontrollers.
-  * Matlab: Applied in mathematical modeling competitions and various power electronics simulations and robot navigation algorithms (2020).
+  * Matlab: Applied in mathematical modeling competitions, various signal processing/power electronics/control system simulations, and robot navigation algorithms (2020).
+  * Verilog: Used verilog with Vivado in designing FPGA programs.
   * Java & Android: Developed a data sensing and detection app, applied in [this devices](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202309785).
 * Altium Designer: Skilled in designing and soldering circuit boards, including various small power and signal printed circuit boards.
 * Digital Painting/Painting: A hobbyist experienced with Photoshop, SAI, acrylic paints, and oil pastels.
