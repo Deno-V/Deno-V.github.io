@@ -66,7 +66,7 @@ The courses in *italics* are graduate courses, while the others are undergraduat
 
 🛠️ Skills
 ======
-* Programming
+* Programming:
   * Python: Proficient in PyTorch, TensorFlow, and other AI-related packages.
   * C: Used C to implement image processing, navigation, and control algorithms in the Intelligent Car Competition and to build a small electromagnetic railgun (2019). Primarily utilized in microcontrollers.
   * Matlab: Applied in mathematical modeling competitions, various signal processing/power electronics/control system simulations, and robot navigation algorithms (2020).
