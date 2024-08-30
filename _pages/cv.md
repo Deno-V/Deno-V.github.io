@@ -66,12 +66,14 @@ The courses in *italics* are graduate courses, while the others are undergraduat
 
 🛠️ Skills
 ======
-* Programming:
+* Programming (primary):
   * Python: Proficient in PyTorch, TensorFlow, and other AI-related packages.
   * C: Used C to implement image processing, navigation, and control algorithms in the Intelligent Car Competition and to build a small electromagnetic railgun (2019). Primarily utilized in microcontrollers.
   * Matlab: Applied in mathematical modeling competitions, various signal processing/power electronics/control system simulations, and robot navigation algorithms (2020).
+* Programming (secondary):
   * Verilog: Used verilog with Vivado in designing FPGA programs.
   * Java & Android: Developed a data sensing and detection app, applied in [this devices](https://onlinelibrary.wiley.com/doi/full/10.1002/smll.202309785).
+  * R: Used R language for machine learning to analyze medical data related to bleeding symptoms.
 * Altium Designer: Skilled in designing and soldering circuit boards, including various small power and signal printed circuit boards.
 * Digital Painting/Painting: A hobbyist experienced with Photoshop, SAI, acrylic paints, and oil pastels.
 * Musics: A long-time fingerstyle guitar enthusiast; erhu player.
