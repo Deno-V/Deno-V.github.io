@@ -2,7 +2,7 @@
 title: "Navigating the Noisy Crowd: Finding Key Information for Claim Verification"
 authors: "Haisong Gong, Huanhuan Ma, Qiang Liu, Shu Wu, Liang Wang"
 collection: publications
-permalink:  /publication/NavigatingCrowd
+permalink:  /publication/EACon
 excerpt: "This paper introduces EACon where evidence abstraction and claim deconstruction are proposed to improve LLM's performance in claim verification."
 date: 2024-07-17
 venue: "arXiv"
