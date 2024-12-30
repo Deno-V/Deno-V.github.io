@@ -5,9 +5,9 @@ collection: publications
 permalink:  /publication/CSI
 excerpt: "We propose the Core Sentiment Inventory (CSI), a novel tool inspired by the Implicit Association Test, to evaluate sentiment tendencies in Large Language Models."
 date: 2024-09-28
-venue: "openreview"
+venue: "submitting"
 slidesurl: 
-paperurl: 'https://openreview.net/forum?id=zrdkQaf48Z'
+paperurl: 
 codeurl:
 citation:
 figure: "/images/CSI.png"
